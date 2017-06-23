@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Circle area</title>
+  <body>
+    <script type="text/javascript">                                                        <!--intialising javascript-->
+     function calcCircleArea(r)                                                            <!--caling function parameters-->                                      
+	 {
+     if(r >= 0)
+     {
+       return window['Math']['PI'] * r * r;    
+     }
+	   else
+	 {
+         return "wrong input";
+      }
+	  }
+      document.write('r = 6; area = ' + window['calcCircleArea'](6) + "<br />");            <!--to find area of a cicrlce-->
+      document.write('r = 2.5; area = ' + window['calcCircleArea'](2.5) + "<br />");
+      document.write('r = 30; area = ' + window['calcCircleArea'](30) + "<br />");
+	  </script>
+   </head>
+  </body>
+</html>
